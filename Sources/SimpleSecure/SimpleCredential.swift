@@ -10,7 +10,11 @@ import Foundation
 import CryptoSwift
 
 public struct SimpleCredential {
-
+    public init(clientId: String, clientSecret: String, scope: String) {
+        self.clientId = clientId
+        self.clientSecret = clientSecret
+        self.scope = scope
+    }
     public let clientId: String
     public let clientSecret: String
     public let scope: String
