@@ -10,12 +10,12 @@ import Foundation
 import CryptoSwift
 
 public struct SimpleCredential {
-    
-    let clientId: String
-    let clientSecret: String
-    let scope: String
-    
-    func hashedString() -> String {
+
+    public let clientId: String
+    public let clientSecret: String
+    public let scope: String
+
+    public func hashedString() -> String {
         return "\(clientId):\(clientSecret):\(scope)".sha512()
     }
 }
