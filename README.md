@@ -41,9 +41,9 @@ Send as simple HTTP POST request to the /oauth2/authorize with the following bod
 ```JSON
 {
   	"grant_type":"client_credentials",
-  	"client_id": $secret,
-  	"client_secret": $secret,
-  	"scope": $scope
+  	"client_id": $someCient,
+  	"client_secret": $someSecret,
+  	"scope": $someScope
 }
 ```
 You will receive a token response similar to the one below:
