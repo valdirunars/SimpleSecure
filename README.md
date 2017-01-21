@@ -1,6 +1,6 @@
 # SimpleSecure
 
-A simple lightweight module for securing a web app following the O'Auth 2.0 protocol (only client_credential grant is supported)
+A simple lightweight module for securing a web app following the O'Auth 2.0 protocol (currently only client_credential grant is supported)
 
 > NOTE: The current implementation should not be used in production of web applications containing highly sensitive data, but can be very useful for limiting traffic to an API/route
 
