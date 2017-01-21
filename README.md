@@ -2,7 +2,7 @@
 
 A simple module for securing a web app with OAuth 2.0 (only client_credential grant is supported)
 
-> NOTE: The current implementation should not be used in production of web applications containing sensitive data, but can be very useful for limiting traffic to an API/route
+> NOTE: The current implementation should not be used in production of web applications containing highly sensitive data, but can be very useful for limiting traffic to an API/route
 
 ## Using the module
 
