@@ -38,7 +38,7 @@ SimpleOAuth2.sharedInstance.simplySecure(router: router, with: [
 
 Send as simple HTTP POST request to the /oauth2/authorize with the following body
 
-```JSON
+```javascript
 {
   	"grant_type":"client_credentials",
   	"client_id": $someCient,
