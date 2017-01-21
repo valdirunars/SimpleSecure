@@ -1,4 +1,9 @@
 # SimpleSecure
+
+A simple module for securing a web app with OAuth 2.0 (only client_credential grant is supported)
+
+> NOTE: The current implementation should not be used in production of web applications containing sensitive data, but can be very useful for limiting traffic to an API/route
+
 ## Using the module
 
 Using Swift Package Manager, add git url to Package.swift's dependencies
